@@ -3,6 +3,9 @@ class Player:
         self.name = name
         self.hand = []
 
+    def draw(self, card):
+        self.hand.append(card)
+
 
 class HandLimitPlayer(Player):
     def __init__(self, name, limit):
