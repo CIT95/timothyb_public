@@ -20,8 +20,5 @@ class Knight(Soldier):
 
 
 class Archer(Soldier):
-    def __init__(self, name, weapon):
-        super().__init__(name, weapon)
-
     def attack(self):
         print(f"Archer {self.name} shoots with their {self.weapon}!")
